@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <link href="Kloginstyle.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="login">
+		    <div id="center-overlay">
+        <img src="hmc.jpg" alt="Center Overlay Image">
+    </div>
+			<h1>Login</h1>
+			<form action="verifycredentials.php" method="post">
+				<label for="username">
+				
+					<ion-icon name="mail"></ion-icon>
+				</label>
+				<input type="text" name="username" placeholder="Username" id="username" required>
+				<label for="password">
+					
+					<ion-icon name="lock-closed"></ion-icon>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password" required>
+				<input type="submit" value="Login">
+				<p> Haven't registered? <a href="index.html">Register</a></p>
+			</form>
+		</div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	</body>
+</html>
